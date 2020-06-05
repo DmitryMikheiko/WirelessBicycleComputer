@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "bc2\stm32f1xx_hal_dma.o" "bc2\stm32f1xx_hal_pwr.o" "bc2\stm32f1xx_hal_gpio.o" "bc2\stm32f1xx_hal_spi.o" "bc2\stm32f1xx_hal_cortex.o" "bc2\stm32f1xx_hal_tim_ex.o" "bc2\stm32f1xx_hal_flash.o" "bc2\stm32f1xx_hal_spi_ex.o" "bc2\stm32f1xx_hal_rtc.o" "bc2\stm32f1xx_hal_rtc_ex.o" "bc2\stm32f1xx_hal_tim.o" "bc2\stm32f1xx_hal_rcc_ex.o" "bc2\stm32f1xx_hal.o" "bc2\stm32f1xx_hal_rcc.o" "bc2\stm32f1xx_hal_flash_ex.o" "bc2\stm32f1xx_hal_adc.o" "bc2\stm32f1xx_hal_adc_ex.o" "bc2\main.o" "bc2\stm32f1xx_hal_msp.o" "bc2\stm32f1xx_it.o" "bc2\system_stm32f1xx.o" "bc2\startup_stm32f100xb.o" 
+--library_type=microlib --strict --scatter "BC2\BC2.sct" 
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "BC2.map" -o BC2\BC2.axf

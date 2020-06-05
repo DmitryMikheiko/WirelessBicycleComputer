@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include --C99 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-DUSE_HAL_DRIVER -DSTM32F100xB -o "Driver\main.o" --omf_browse "Driver\main.crf" --depend "Driver\main.d" "../Src/main.c"

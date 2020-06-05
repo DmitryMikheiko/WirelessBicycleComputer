@@ -1,0 +1,41 @@
+*** Creating Trace Output File 'BC2\BC2.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"bc2\stm32f1xx_hal_dma.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_pwr.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_gpio.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_spi.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_cortex.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_tim_ex.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_flash.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_spi_ex.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_rtc.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_rtc_ex.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_tim.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_rcc_ex.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_rcc.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_flash_ex.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_adc.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_adc_ex.o"'
+### List of Objects: adding '"bc2\main.o"'
+### List of Objects: adding '"bc2\stm32f1xx_hal_msp.o"'
+### List of Objects: adding '"bc2\stm32f1xx_it.o"'
+### List of Objects: adding '"bc2\system_stm32f1xx.o"'
+### List of Objects: adding '"bc2\startup_stm32f100xb.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "bc2\stm32f1xx_hal_dma.o" "bc2\stm32f1xx_hal_pwr.o" "bc2\stm32f1xx_hal_gpio.o" "bc2\stm32f1xx_hal_spi.o" "bc2\stm32f1xx_hal_cortex.o" "bc2\stm32f1xx_hal_tim_ex.o" "bc2\stm32f1xx_hal_flash.o" "bc2\stm32f1xx_hal_spi_ex.o" "bc2\stm32f1xx_hal_rtc.o" "bc2\stm32f1xx_hal_rtc_ex.o" "bc2\stm32f1xx_hal_tim.o" "bc2\stm32f1xx_hal_rcc_ex.o" "bc2\stm32f1xx_hal.o" "bc2\stm32f1xx_hal_rcc.o" "bc2\stm32f1xx_hal_flash_ex.o" "bc2\stm32f1xx_hal_adc.o" "bc2\stm32f1xx_hal_adc_ex.o" "bc2\main.o" "bc2\stm32f1xx_hal_msp.o" "bc2\stm32f1xx_it.o" "bc2\system_stm32f1xx.o" "bc2\startup_stm32f100xb.o" 
+--library_type=microlib --strict --scatter "BC2\BC2.sct" 
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "BC2.map" -o BC2\BC2.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'BC2\BC2.axf'
+### ADS-LD Command File: 'BC2\BC2.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'BC2\BC2.lnp', Handle=0x00000834
+### Writing '.lnp' file
+### ADS-LD Command file 'BC2\BC2.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
